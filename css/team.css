@@ -1,0 +1,1782 @@
+body {
+  display: none;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.body-visible {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 609px) and (max-width: 993px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 58px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #nav #nav-open:active {
+    cursor: pointer;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #team-title {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header #team-title div h2 {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    font-size: 75px;
+    line-height: 70px;
+  }
+  .header #team-title div #h2-1 {
+    margin-left: -25px;
+  }
+  .header #team-title div #h2-2 {
+    margin-left: 50px;
+  }
+  .header #team-title p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 240px;
+    margin: 0 75px 0 0;
+    padding: 0;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  /* 1.2 */
+  .team {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .team #team-persons {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    gap: 13px;
+  }
+  .team #team-persons div {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .team #team-persons div img {
+    width: 120px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    font-weight: 300;
+    padding: 0;
+    font-size: 14px;
+    line-height: 17px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div #selected-pers {
+    color: #7C4D35;
+  }
+  .team #team-persons div:active img {
+    width: 140px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+  }
+  .team #team-persons div:active #p {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    color: #7C4D35;
+  }
+  .team #team-persons-phone {
+    display: none;
+  }
+  .team #h3-side {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-end;
+    align-items: end;
+  }
+  .team #h3-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    width: fit-content;
+    padding: 0;
+    margin: -213px -400px 75px 0;
+  }
+  /* 1.3 */
+  .person-now {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 70px;
+    margin-bottom: 100px;
+  }
+  .person-now #slc-pers-descr {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  .person-now #slc-pers-descr #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    width: 652px;
+    height: 0;
+    align-self: center;
+  }
+  .person-now #slc-pers-descr img {
+    width: 652px;
+    height: 328px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+    gap: 65px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(1) {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    color: #7C4D35;
+    height: fit-content;
+    font-size: 45px;
+    line-height: 41px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(2) {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #7C4D35;
+    padding: 0;
+    font-size: 22px;
+    line-height: 17px;
+    width: auto;
+  }
+  .person-now #slc-pers-descr #pers-text {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    padding: 0;
+    width: 651px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .person-now #slc-pers-works {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+  }
+  .person-now #slc-pers-works p {
+    align-self: center;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 35px;
+  }
+  .person-now #slc-pers-works #work-line-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-1 img {
+    height: 330px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(1) {
+    width: 229px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(2) {
+    width: 426px;
+  }
+  .person-now #slc-pers-works #work-line-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(1) {
+    width: 430px;
+    height: 380px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(2) {
+    width: 219px;
+    height: 260px;
+  }
+  .person-now #slc-pers-works #work-line-2 #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 102px;
+    margin: 0;
+  }
+  .person-now #slc-pers-works #work-line-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 11px 0 0;
+  }
+  .person-now #slc-pers-works #work-line-3 button {
+    align-self: center;
+    height: 60px;
+    width: 335px;
+    background: #ffffff;
+    border: 0.5px solid #7C4D35;
+    margin-top: -190px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .person-now #slc-pers-works #work-line-3 button p {
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    padding: 0 30px;
+    margin: 0;
+    text-align: center;
+  }
+  .person-now #slc-pers-works #work-line-3 button:active {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .person-now #slc-pers-works #work-line-3 button:active p {
+    color: #ffffff;
+  }
+  .person-now #slc-pers-works #work-line-3 img {
+    width: 277px;
+    height: 266px;
+  }
+  /* 1.4 */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    justify-content: center;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 50px;
+    margin: 45px 0 35px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    transform: rotate(0deg);
+    padding-bottom: 0;
+    font-size: 38px;
+    line-height: 35px;
+    width: fit-content;
+    height: 71px;
+    padding-left: 100px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+    transition-property: all;
+    transition: all ease 0.6s;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer #waiting-text #arr-up-link:active {
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(-20%);
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 70px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 30px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 70px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 115px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #team-title {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header #team-title div h2 {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+  }
+  .header #team-title div #h2-1 {
+    margin-left: -25px;
+  }
+  .header #team-title div #h2-2 {
+    margin-left: 50px;
+  }
+  .header #team-title p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 210px;
+    margin: 0 210px 0 0;
+    padding: 0;
+  }
+  /* 1.2 */
+  .team {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 70px;
+  }
+  .team #team-persons {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    gap: 20px;
+  }
+  .team #team-persons div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .team #team-persons div img {
+    width: 135px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    font-weight: 300;
+    padding: 0;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div #selected-pers {
+    color: #7C4D35;
+  }
+  .team #team-persons div:hover img {
+    width: 155px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+  }
+  .team #team-persons div:hover #p {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    color: #7C4D35;
+  }
+  .team #team-persons-phone {
+    display: none;
+  }
+  .team #h3-side {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-end;
+    align-items: end;
+  }
+  .team #h3-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    width: fit-content;
+    padding: 0;
+    margin: -235px -55px 94px 0;
+  }
+  /* 1.3 */
+  .person-now {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 70px;
+    margin-bottom: 70px;
+  }
+  .person-now #slc-pers-descr {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  .person-now #slc-pers-descr #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    width: 755px;
+    height: 0;
+    align-self: center;
+  }
+  .person-now #slc-pers-descr img {
+    width: 755px;
+    height: 405px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(1) {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    color: #7C4D35;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(2) {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #7C4D35;
+    font-weight: 300;
+    padding: 0 30px 0 0;
+  }
+  .person-now #slc-pers-descr #pers-text {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    padding: 0;
+    width: 755px;
+  }
+  .person-now #slc-pers-works {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+  }
+  .person-now #slc-pers-works p {
+    align-self: center;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 35px;
+  }
+  .person-now #slc-pers-works #work-line-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-1 img {
+    height: 330px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(1) {
+    width: 229px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(2) {
+    width: 426px;
+  }
+  .person-now #slc-pers-works #work-line-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(1) {
+    width: 430px;
+    height: 380px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(2) {
+    width: 219px;
+    height: 300px;
+  }
+  .person-now #slc-pers-works #work-line-2 #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 102px;
+    margin: 0;
+  }
+  .person-now #slc-pers-works #work-line-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: -80px 11px 0 0;
+  }
+  .person-now #slc-pers-works #work-line-3 button {
+    align-self: center;
+    height: 60px;
+    width: 335px;
+    background: #ffffff;
+    border: 0.5px solid #7C4D35;
+    margin-top: -85px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .person-now #slc-pers-works #work-line-3 button p {
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    padding: 0 30px;
+    margin: 0;
+    text-align: center;
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover p {
+    color: #ffffff;
+  }
+  .person-now #slc-pers-works #work-line-3 img {
+    width: 300px;
+    height: 305px;
+  }
+  /* 1.4 */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    margin: 75px 0 45px 0;
+    gap: 160px;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: 280px;
+    padding-bottom: 0;
+    margin-left: 245px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+    transition-property: all;
+    transition: all ease 0.6s;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer #waiting-text #arr-up-link:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(-20%);
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 121px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 140px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #nav #nav-open:hover {
+    cursor: pointer;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #team-title {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header #team-title div h2 {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+  }
+  .header #team-title div #h2-1 {
+    margin-left: -25px;
+  }
+  .header #team-title div #h2-2 {
+    margin-left: 50px;
+  }
+  .header #team-title p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 210px;
+    margin: 0 210px 0 0;
+    padding: 0;
+  }
+  /* 1.2 */
+  .team {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 121px;
+  }
+  .team #team-persons {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    gap: 20px;
+  }
+  .team #team-persons div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .team #team-persons div img {
+    width: 170px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    font-weight: 300;
+    padding: 0;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div:hover img {
+    width: 190px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+  }
+  .team #team-persons div:hover #p {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    color: #7C4D35;
+  }
+  .team #team-persons-phone {
+    display: none;
+  }
+  .team #h3-side {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-end;
+    align-items: end;
+  }
+  .team #h3-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    width: fit-content;
+    padding: 0;
+    margin: -235px -534px 38px 0;
+  }
+  /* 1.3 */
+  .person-now {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 70px;
+    margin-bottom: 121px;
+  }
+  .person-now #slc-pers-descr {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 35px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  .person-now #slc-pers-descr #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    width: 915px;
+    height: 0;
+    margin: 0 25px 0 0;
+    align-self: center;
+  }
+  .person-now #slc-pers-descr img {
+    width: 920px;
+    height: 461px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 310px;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(1) {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    color: #7C4D35;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(2) {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #7C4D35;
+    font-weight: 300;
+    padding: 0;
+  }
+  .person-now #slc-pers-descr #pers-text {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    padding: 0;
+    width: 935px;
+  }
+  .person-now #slc-pers-works {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+  }
+  .person-now #slc-pers-works p {
+    align-self: center;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 35px;
+  }
+  .person-now #slc-pers-works #work-line-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-1 img {
+    height: 391px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(1) {
+    width: 274px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(2) {
+    width: 503px;
+  }
+  .person-now #slc-pers-works #work-line-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(1) {
+    width: 510px;
+    height: 416px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(2) {
+    width: 265px;
+    height: 314px;
+  }
+  .person-now #slc-pers-works #work-line-2 #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 102px;
+    margin: 0;
+  }
+  .person-now #slc-pers-works #work-line-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: -98px 0 0 0;
+  }
+  .person-now #slc-pers-works #work-line-3 button {
+    align-self: center;
+    height: 60px;
+    width: 335px;
+    background: #ffffff;
+    border: 0.5px solid #7C4D35;
+    margin-top: -105px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .person-now #slc-pers-works #work-line-3 button p {
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    padding: 0 30px;
+    margin: 0;
+    text-align: center;
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover p {
+    color: #ffffff;
+  }
+  .person-now #slc-pers-works #work-line-3 img {
+    width: 387px;
+    height: 376px;
+  }
+  /* 1.4 */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    gap: 160px;
+    margin: 75px 0 45px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: 280px;
+    padding-bottom: 0;
+    margin-left: 255px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+    transition-property: all;
+    transition: all ease 0.6s;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer #waiting-text #arr-up-link:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(-20%);
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 230px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #team-title {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header #team-title div h2 {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+  }
+  .header #team-title div #h2-1 {
+    margin-left: -25px;
+  }
+  .header #team-title div #h2-2 {
+    margin-left: 50px;
+  }
+  .header #team-title p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 210px;
+    margin: 0 210px 0 0;
+    padding: 0;
+  }
+  /* 1.2 */
+  .team {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .team #team-persons {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    width: auto;
+    height: fit-content;
+    gap: 20px;
+  }
+  .team #team-persons div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .team #team-persons div img {
+    width: 170px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    font-weight: 300;
+    padding: 0;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .team #team-persons div #selected-pers {
+    color: #7C4D35;
+  }
+  .team #team-persons div:hover img {
+    width: 190px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+  }
+  .team #team-persons div:hover #p {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    color: #7C4D35;
+  }
+  .team #team-persons-phone {
+    display: none;
+  }
+  .team #h3-side {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-end;
+    align-items: end;
+  }
+  .team #h3-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    width: fit-content;
+    padding: 0;
+    margin: -219px -530px 89px 0;
+  }
+  /* 1.3 */
+  .person-now {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 70px;
+    margin-bottom: 100px;
+  }
+  .person-now #slc-pers-descr {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    gap: 35px;
+    margin-bottom: 100px;
+  }
+  .person-now #slc-pers-descr #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    width: 950px;
+    height: 0;
+    margin: 0 25px 0 0;
+    align-self: center;
+  }
+  .person-now #slc-pers-descr img {
+    align-self: center;
+    width: 920px;
+    height: 461px;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(1) {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    color: #7C4D35;
+    height: fit-content;
+  }
+  .person-now #slc-pers-descr #slc-pesr-name p:nth-child(2) {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #7C4D35;
+    font-weight: 300;
+    padding: 0;
+  }
+  .person-now #slc-pers-descr #pers-text {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    padding: 0;
+  }
+  .person-now #slc-pers-works {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    justify-content: center;
+  }
+  .person-now #slc-pers-works p {
+    align-self: center;
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 41px;
+    color: #000000;
+    margin-bottom: 35px;
+  }
+  .person-now #slc-pers-works #work-line-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-1 img {
+    height: 391px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(1) {
+    width: 274px;
+  }
+  .person-now #slc-pers-works #work-line-1 img:nth-child(2) {
+    width: 503px;
+  }
+  .person-now #slc-pers-works #work-line-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(1) {
+    width: 510px;
+    height: 416px;
+  }
+  .person-now #slc-pers-works #work-line-2 img:nth-child(2) {
+    width: 265px;
+    height: 314px;
+  }
+  .person-now #slc-pers-works #work-line-2 #hr-line {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 102px;
+    margin: 0;
+  }
+  .person-now #slc-pers-works #work-line-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .person-now #slc-pers-works #work-line-3 button {
+    display: flex;
+    align-self: center;
+    height: 60px;
+    width: 335px;
+    background: #ffffff;
+    border: 0.5px solid #7C4D35;
+    margin-top: -313px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .person-now #slc-pers-works #work-line-3 button p {
+    width: max-content;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    padding: 0 30px;
+    margin: 0;
+    text-align: center;
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .person-now #slc-pers-works #work-line-3 button:hover p {
+    color: #ffffff;
+  }
+  .person-now #slc-pers-works #work-line-3 img {
+    width: 387px;
+    height: 376px;
+  }
+  /* 1.4 */
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    gap: 160px;
+    margin: 75px 0 45px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: fit-content;
+    padding-bottom: 0;
+    margin-left: 245px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+    transition-property: all;
+    transition: all ease 0.6s;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer #waiting-text #arr-up-link:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(-20%);
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
