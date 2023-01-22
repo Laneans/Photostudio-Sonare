@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 609px) and (max-width: 993px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .menu #nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+    padding-left: 300px;
+  }
+  .menu #nav-menu p {
+    margin: 0;
+    width: 80px;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .menu #nav-menu #icon-exit {
+    width: 23px;
+    height: 23px;
+    transition-property: all;
+    transition: all ease 0.3s;
+  }
+  .menu #nav-menu #icon-exit:hover {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    transform: rotate(35deg);
+  }
+  .menu #menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .menu #menu-content h1 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 58px;
+    color: #000000;
+  }
+  .menu #menu-content div:nth-child(1) {
+    padding-left: 140px;
+  }
+  .menu #menu-content div:nth-child(2) {
+    padding-left: 40px;
+  }
+  .menu #menu-content div:nth-child(3) {
+    padding-left: 127px;
+  }
+  .menu #menu-content div:nth-child(4) {
+    padding-left: 180px;
+  }
+  .menu #menu-content div:nth-child(5) {
+    padding-left: 20px;
+  }
+  .menu #menu-content div:nth-child(6) {
+    padding-left: 117px;
+  }
+}
+@media (min-width: 993px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  .menu #nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 400px;
+    padding-left: 400px;
+  }
+  .menu #nav-menu p {
+    margin: 0;
+    width: 80px;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+  }
+  .menu #nav-menu #icon-exit {
+    width: 23px;
+    height: 23px;
+    transition-property: all;
+    transition: all ease 0.3s;
+  }
+  .menu #nav-menu #icon-exit:hover {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    transform: rotate(35deg);
+  }
+  .menu #menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .menu #menu-content h1 {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 79.6062px;
+    line-height: 58px;
+    color: #000000;
+  }
+  .menu #menu-content div:nth-child(1) {
+    padding-left: 140px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(1):hover {
+    cursor: pointer;
+    padding-left: 140px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(10%);
+  }
+  .menu #menu-content div:nth-child(2) {
+    padding-left: 40px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(2):hover {
+    cursor: pointer;
+    padding-left: 40px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(-20%);
+  }
+  .menu #menu-content div:nth-child(3) {
+    padding-left: 127px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(3):hover {
+    cursor: pointer;
+    padding-left: 127px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(20%);
+  }
+  .menu #menu-content div:nth-child(4) {
+    padding-left: 180px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(4):hover {
+    cursor: pointer;
+    padding-left: 180px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(11%);
+  }
+  .menu #menu-content div:nth-child(5) {
+    padding-left: 20px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(5):hover {
+    cursor: pointer;
+    padding-left: 20px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(-25%);
+  }
+  .menu #menu-content div:nth-child(6) {
+    padding-left: 117px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .menu #menu-content div:nth-child(6):hover {
+    cursor: pointer;
+    padding-left: 117px;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(10%);
+  }
+}
