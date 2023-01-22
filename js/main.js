@@ -5,7 +5,6 @@ window.onload = (function () {
     $(document).ready(function () {        
         $body.fadeIn(1800, "swing");
         $body.addClass('body_visible');
-
     });
 
 
@@ -15,7 +14,7 @@ window.onload = (function () {
     $menu.on('click', function () {
         //переход    
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "MenuPC.html";
+        linkLocation = "html/menu.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
@@ -26,7 +25,7 @@ window.onload = (function () {
     var $to_portfl = $('#btn-goto-porfl');
     $to_portfl.on('click', function () {
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "Portfolio.html";
+        linkLocation = "html/portfolio.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
