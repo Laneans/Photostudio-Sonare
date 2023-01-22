@@ -1,0 +1,3602 @@
+body {
+  display: none;
+  overflow-x: hidden;
+}
+
+.body-visible {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 609px) and (max-width: 993px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 58px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #services-title {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header #services-title #title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+  }
+  .header #services-title #title #ourserv-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .header #services-title #title #ourserv-text div #h2-1 {
+    margin-left: 44px;
+  }
+  .header #services-title #title #ourserv-text div #h2-2 {
+    margin: -5px 0 0 80px;
+  }
+  .header #services-title #title #ourserv-text div h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    font-size: 75px;
+    line-height: 70px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .header #services-title #title #ourserv-text p {
+    display: flex;
+    margin: 0 0 0 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 160px;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .header #services-title #title #girl-serv-main {
+    display: flex;
+    justify-content: center;
+  }
+  .header #services-title #title #girl-serv-main img {
+    width: 286px;
+    height: 326px;
+  }
+  .header #services-title #req-2-p {
+    display: none;
+  }
+  .header #services-title #req-2-button {
+    display: flex;
+    width: fit-content;
+    align-self: flex-end;
+  }
+  .header #services-title #req-2-button button {
+    justify-content: center;
+    align-items: flex-end;
+    width: 286px;
+    height: 60px;
+    background-color: transparent;
+    transition-property: all;
+    transition: all ease 0.5s;
+    border: 0.5px solid #000000;
+  }
+  .header #services-title #req-2-button button:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    background-color: #CAA390;
+    transform: translateY(10%);
+    border: none;
+    color: #000000;
+  }
+  .header #services-title #req-2-button button:hover p {
+    color: #ffffff;
+  }
+  .header #services-title #req-2-button button p {
+    align-self: center;
+    align-items: center;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    padding-left: 60px;
+    margin: 0;
+  }
+  /* 1.2 */
+  .fotosessia-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 70px;
+  }
+  .fotosessia-serv #serv-1-title {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .fotosessia-serv #serv-1-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    font-size: 46px;
+    line-height: 48px;
+    height: fit-content;
+  }
+  .fotosessia-serv #serv-1-inner {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto #hr-line-1 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    margin-top: 2px;
+    height: 187px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto img {
+    width: 210px;
+    height: 325px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 10px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 30px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 252px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(50%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 #navarr-1 {
+    width: 40px;
+    align-self: flex-start;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 20px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 67px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.95);
+    width: 190px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button {
+    width: 335px;
+    height: 60px;
+    background: #ffffff;
+    border: 0.5px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 11px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.3 */
+  .retush-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .retush-serv #serv-2-title {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    font-size: 46px;
+    line-height: 48px;
+    height: fit-content;
+    margin-bottom: 20px;
+  }
+  .retush-serv #serv-2-descr {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .retush-serv #serv-2-descr #hr-line-2 {
+    margin-top: 2px;
+    margin-left: 160px;
+    border: 0.1px solid #e3c3b3;
+    height: 140px;
+    width: 1;
+    background-color: #e3c3b3;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 {
+    display: flex;
+    padding-left: 17px;
+    width: 320px;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-size: 22px;
+    line-height: 26px;
+    width: 252px;
+  }
+  .retush-serv #serv-2-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-descr div h3 {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding: 100px 12px 0 0;
+    margin-top: -275px;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .retush-serv #serv-2-inner {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-1 #girl-serv-img-2 {
+    width: 306px;
+    height: 356px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #girl-serv-img-3 {
+    width: 185px;
+    height: 163px;
+  }
+  .retush-serv #btn-leave-req-serv-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button {
+    width: 335px;
+    height: 60px;
+    background: #ffffff;
+    border: 0.500294px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .retush-serv #btn-leave-req-serv-2 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.4 */
+  .rentcloth-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .rentcloth-serv #serv-3-title {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    font-size: 46px;
+    line-height: 48px;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .rentcloth-serv #serv-3-descr {
+    display: flex;
+    padding: 0 58px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-descr-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-size: 22px;
+    line-height: 26px;
+    width: 355px;
+    padding: 0;
+  }
+  .rentcloth-serv #serv-3-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-descr div #hr-line-3 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    transform: rotate(90deg);
+    width: 0px;
+    margin: -65px 0 0 80px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-pay p {
+    margin: 0 0 0 80px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+  }
+  .rentcloth-serv #arr-next-1 {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+  }
+  .rentcloth-serv #arr-next-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #arr-next-1 #nextarr-1 {
+    width: 40px;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #serv-3-inner {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses,
+  .rentcloth-serv #serv-3-inner #suits,
+  .rentcloth-serv #serv-3-inner #wedding {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #dress-foto,
+  .rentcloth-serv #serv-3-inner #suits #dress-foto,
+  .rentcloth-serv #serv-3-inner #wedding #dress-foto {
+    width: 201px;
+    height: 275px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #suits-foto,
+  .rentcloth-serv #serv-3-inner #suits #suits-foto,
+  .rentcloth-serv #serv-3-inner #wedding #suits-foto {
+    width: 201px;
+    height: 200px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #wedding-foto,
+  .rentcloth-serv #serv-3-inner #suits #wedding-foto,
+  .rentcloth-serv #serv-3-inner #wedding #wedding-foto {
+    width: 201px;
+    height: 360px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses p,
+  .rentcloth-serv #serv-3-inner #suits p,
+  .rentcloth-serv #serv-3-inner #wedding p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 25px;
+    font-size: 22px;
+    padding: 0;
+  }
+  /* 1.5 */
+  .request {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    gap: 20px;
+    color: #000000;
+  }
+  .request #form {
+    display: flex;
+    padding: 0 58px;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    gap: 44px;
+    margin: 0;
+  }
+  .request #form #form-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .request #form #form-title #hr-line-8 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    display: flex;
+    height: 145px;
+  }
+  .request #form #form-title #title-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+  .request #form #form-title #title-form p {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: left;
+    margin-top: -5px;
+    width: fit-content;
+    font-size: 46px;
+    line-height: 48px;
+  }
+  .request #form #form-title #title-form #hr-block-3 {
+    margin: 0;
+    border: 0.1px solid rgba(255, 229, 216, 0.8980392157);
+    width: 181px;
+    height: 9px;
+    background-color: rgba(255, 229, 216, 0.8980392157);
+  }
+  .request #form #form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .request #form #form-fields #leave-req-text {
+    display: flex;
+  }
+  .request #form #form-fields #leave-req-text p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 0;
+  }
+  .request #form #form-fields #inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 45px 0 0 48px;
+  }
+  .request #form #form-fields #inputs input {
+    padding-bottom: 4px;
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 20px;
+    line-height: 15px;
+    width: 415px;
+    height: 30px;
+  }
+  .request #form #form-fields #inputs input:focus {
+    color: #000000;
+    outline: none;
+  }
+  .request #form #form-fields #btn-req {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 53px;
+  }
+  .request #form #form-fields #btn-req button {
+    background-color: #1d1d1d;
+    width: 445px;
+    height: 70px;
+    transition-property: all;
+    transition: all ease 0.5s;
+    border: none;
+  }
+  .request #form #form-fields #btn-req button p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    padding-left: 118px;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 13px;
+  }
+  .request #form #form-fields #btn-req button:hover {
+    background-color: #CAA390;
+    border: none;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .request #form #form-fields #btn-req button:hover p {
+    color: #ffffff;
+  }
+  .request #form #h3-text-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -220px 0 0 -40px;
+  }
+  .request #form #h3-text-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    width: fit-content;
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding-bottom: 430px;
+    padding-right: 320px;
+    font-size: 50px;
+    line-height: 55px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    justify-content: center;
+    margin-top: -200px;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 50px;
+    margin: 45px 0 35px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    transform: rotate(0deg);
+    padding-bottom: 0;
+    font-size: 38px;
+    line-height: 35px;
+    width: fit-content;
+    height: 71px;
+    padding-left: 100px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 70px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 30px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 70px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 115px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #services-title {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header #services-title #title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
+  .header #services-title #title #ourserv-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .header #services-title #title #ourserv-text div #h2-1 {
+    margin-left: 44px;
+  }
+  .header #services-title #title #ourserv-text div #h2-2 {
+    margin: -5px 0 0 80px;
+  }
+  .header #services-title #title #ourserv-text div h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+    font-size: 85px;
+    line-height: 80px;
+    width: fit-content;
+    height: fit-content;
+  }
+  .header #services-title #title #ourserv-text p {
+    display: flex;
+    margin: 0 0 0 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 160px;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .header #services-title #title #girl-serv-main {
+    display: flex;
+    justify-content: center;
+  }
+  .header #services-title #title #girl-serv-main img {
+    width: 360px;
+    height: 430px;
+  }
+  .header #services-title #req-2-p {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: flex-end;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #services-title #req-2-p:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #services-title #req-2-p a {
+    text-decoration: none;
+  }
+  .header #services-title #req-2-p a p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .header #services-title #req-2-p #req-2-arr-img {
+    width: 56px;
+    align-self: flex-end;
+  }
+  .header #services-title #req-2-button {
+    display: none;
+  }
+  /* 1.2 */
+  .fotosessia-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 70px;
+  }
+  .fotosessia-serv #serv-1-title {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+    height: fit-content;
+  }
+  .fotosessia-serv #serv-1-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .fotosessia-serv #serv-1-inner {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto #hr-line-1 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    margin-top: 2px;
+    height: 187px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto img {
+    width: 360px;
+    height: 557px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+    z-index: 1;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 35px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(50%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 #navarr-1 {
+    width: 40px;
+    align-self: flex-start;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 70px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 230px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20.0117px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.95);
+    width: 190px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.5px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.3 */
+  .retush-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 70px;
+  }
+  .retush-serv #serv-2-title {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .retush-serv #serv-2-descr {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .retush-serv #serv-2-descr #hr-line-2 {
+    margin-top: 2px;
+    margin-left: 160px;
+    border: 0.1px solid #e3c3b3;
+    height: 140px;
+    width: 1;
+    background-color: #e3c3b3;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 {
+    display: flex;
+    padding-left: 17px;
+    width: 320px;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .retush-serv #serv-2-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-descr div h3 {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding-bottom: 400px;
+    margin-top: -275px;
+  }
+  .retush-serv #serv-2-inner {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-1 #girl-serv-img-2 {
+    width: 469px;
+    height: 545px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #girl-serv-img-3 {
+    width: 284px;
+    height: 250px;
+  }
+  .retush-serv #btn-leave-req-serv-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.500294px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .retush-serv #btn-leave-req-serv-2 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.4 */
+  .rentcloth-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 70px;
+  }
+  .rentcloth-serv #serv-3-title {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .rentcloth-serv #serv-3-descr {
+    display: flex;
+    padding: 0 115px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-descr-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .rentcloth-serv #serv-3-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-descr div #hr-line-3 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    transform: rotate(90deg);
+    width: 0px;
+    margin: -65px 0 0 80px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-pay p {
+    margin: 0 0 0 100px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+  }
+  .rentcloth-serv #arr-next-1 {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .rentcloth-serv #arr-next-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(2%);
+  }
+  .rentcloth-serv #arr-next-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #arr-next-1 #nextarr-1 {
+    width: 40px;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #serv-3-inner {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses,
+  .rentcloth-serv #serv-3-inner #suits,
+  .rentcloth-serv #serv-3-inner #wedding {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #dress-foto,
+  .rentcloth-serv #serv-3-inner #suits #dress-foto,
+  .rentcloth-serv #serv-3-inner #wedding #dress-foto {
+    width: 347px;
+    height: 475px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #suits-foto,
+  .rentcloth-serv #serv-3-inner #suits #suits-foto,
+  .rentcloth-serv #serv-3-inner #wedding #suits-foto {
+    width: 347px;
+    height: 343px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #wedding-foto,
+  .rentcloth-serv #serv-3-inner #suits #wedding-foto,
+  .rentcloth-serv #serv-3-inner #wedding #wedding-foto {
+    width: 347px;
+    height: 650px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses p,
+  .rentcloth-serv #serv-3-inner #suits p,
+  .rentcloth-serv #serv-3-inner #wedding p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 33px;
+  }
+  /* 1.5 */
+  .request {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    gap: 20px;
+    color: #000000;
+  }
+  .request #form {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    gap: 44px;
+    margin: 0;
+  }
+  .request #form #form-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .request #form #form-title #hr-line-8 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    display: flex;
+    height: 176px;
+  }
+  .request #form #form-title #title-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .request #form #form-title #title-form p {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: left;
+    margin-top: -5px;
+    width: fit-content;
+  }
+  .request #form #form-title #title-form #hr-block-3 {
+    margin: 0;
+    border: 0.1px solid rgba(255, 229, 216, 0.8980392157);
+    width: 181px;
+    height: 9px;
+    background-color: rgba(255, 229, 216, 0.8980392157);
+  }
+  .request #form #form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .request #form #form-fields #leave-req-text {
+    display: flex;
+    margin-left: -118px;
+  }
+  .request #form #form-fields #leave-req-text p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .request #form #form-fields #inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 45px 0 0 75px;
+  }
+  .request #form #form-fields #inputs input {
+    padding-bottom: 4px;
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 18px;
+    width: 525px;
+    height: 30px;
+  }
+  .request #form #form-fields #inputs input:focus {
+    color: #000000;
+    outline: none;
+  }
+  .request #form #form-fields #btn-req {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+  .request #form #form-fields #btn-req button {
+    background-color: #1d1d1d;
+    width: 550px;
+    height: 97px;
+    transition-property: all;
+    transition: all ease 0.5s;
+    border: none;
+  }
+  .request #form #form-fields #btn-req button p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    padding-left: 190px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .request #form #form-fields #btn-req button:hover {
+    background-color: #CAA390;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    border: none;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(35%);
+  }
+  .request #form #form-fields #btn-req button:hover p {
+    color: #ffffff;
+  }
+  .request #form #h3-text-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -220px 0 0 -40px;
+  }
+  .request #form #h3-text-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding-bottom: 390px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    margin: 75px 0 45px 0;
+    gap: 160px;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: 280px;
+    padding-bottom: 0;
+    margin-left: 245px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 121px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 140px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #nav #nav-open:hover {
+    cursor: pointer;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #services-title {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header #services-title #title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header #services-title #title #ourserv-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .header #services-title #title #ourserv-text div #h2-1 {
+    margin-left: -50px;
+  }
+  .header #services-title #title #ourserv-text div #h2-2 {
+    margin-top: -30px;
+  }
+  .header #services-title #title #ourserv-text div h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+  }
+  .header #services-title #title #ourserv-text p {
+    display: flex;
+    margin-right: 17px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 160px;
+    align-self: flex-end;
+  }
+  .header #services-title #title #girl-serv-main {
+    display: flex;
+    justify-content: center;
+  }
+  .header #services-title #title #girl-serv-main img {
+    width: 360px;
+    height: 430px;
+  }
+  .header #services-title #req-2-p {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: flex-end;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #services-title #req-2-p:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #services-title #req-2-p a {
+    text-decoration: none;
+  }
+  .header #services-title #req-2-p a p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .header #services-title #req-2-p #req-2-arr-img {
+    width: 56px;
+    align-self: flex-end;
+  }
+  .header #services-title #req-2-button {
+    display: none;
+  }
+  /* 1.2 */
+  .fotosessia-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 121px;
+  }
+  .fotosessia-serv #serv-1-title {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+    height: fit-content;
+  }
+  .fotosessia-serv #serv-1-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .fotosessia-serv #serv-1-inner {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto #hr-line-1 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    margin-top: 2px;
+    height: 187px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto img {
+    width: 360px;
+    height: 557px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title {
+    display: flex;
+    flex-direction: row;
+    gap: 95px;
+    margin-bottom: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 35px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(50%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 #navarr-1 {
+    width: 40px;
+    align-self: flex-start;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 70px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 253px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20.0117px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.95);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.5px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.3 */
+  .retush-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 121px;
+  }
+  .retush-serv #serv-2-title {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .retush-serv #serv-2-descr {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .retush-serv #serv-2-descr #hr-line-2 {
+    margin-top: 2px;
+    margin-left: 160px;
+    border: 0.1px solid #e3c3b3;
+    height: 140px;
+    width: 1;
+    background-color: #e3c3b3;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 {
+    display: flex;
+    padding-left: 17px;
+    width: 320px;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .retush-serv #serv-2-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-descr div h3 {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding-bottom: 520px;
+    margin-top: -275px;
+  }
+  .retush-serv #serv-2-inner {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: -160px 0 25px 0;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-1 #girl-serv-img-2 {
+    width: 469px;
+    height: 545px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #girl-serv-img-3 {
+    width: 284px;
+    height: 250px;
+  }
+  .retush-serv #btn-leave-req-serv-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.500294px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .retush-serv #btn-leave-req-serv-2 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(35%);
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.4 */
+  .rentcloth-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 121px;
+  }
+  .rentcloth-serv #serv-3-title {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .rentcloth-serv #serv-3-descr {
+    display: flex;
+    padding: 0 140px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-descr-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .rentcloth-serv #serv-3-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-descr div #hr-line-3 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    transform: rotate(90deg);
+    width: 0px;
+    margin: -65px 0 0 80px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-pay p {
+    margin: 0 0 0 100px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+  }
+  .rentcloth-serv #arr-next-1 {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .rentcloth-serv #arr-next-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(3%);
+  }
+  .rentcloth-serv #arr-next-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #arr-next-1 #nextarr-1 {
+    width: 40px;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #serv-3-inner {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses,
+  .rentcloth-serv #serv-3-inner #suits,
+  .rentcloth-serv #serv-3-inner #wedding {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #dress-foto,
+  .rentcloth-serv #serv-3-inner #suits #dress-foto,
+  .rentcloth-serv #serv-3-inner #wedding #dress-foto {
+    width: 347px;
+    height: 475px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #suits-foto,
+  .rentcloth-serv #serv-3-inner #suits #suits-foto,
+  .rentcloth-serv #serv-3-inner #wedding #suits-foto {
+    width: 347px;
+    height: 343px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #wedding-foto,
+  .rentcloth-serv #serv-3-inner #suits #wedding-foto,
+  .rentcloth-serv #serv-3-inner #wedding #wedding-foto {
+    width: 347px;
+    height: 650px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses p,
+  .rentcloth-serv #serv-3-inner #suits p,
+  .rentcloth-serv #serv-3-inner #wedding p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 33px;
+  }
+  /* 1.5 */
+  .request {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    gap: 20px;
+    color: #000000;
+  }
+  .request #form {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    gap: 44px;
+    margin: 0;
+  }
+  .request #form #form-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .request #form #form-title #hr-line-8 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    display: flex;
+    height: 176px;
+  }
+  .request #form #form-title #title-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .request #form #form-title #title-form p {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: left;
+    margin-top: -5px;
+    width: fit-content;
+  }
+  .request #form #form-title #title-form #hr-block-3 {
+    margin: 0;
+    border: 0.1px solid rgba(255, 229, 216, 0.8980392157);
+    width: 181px;
+    height: 9px;
+    background-color: rgba(255, 229, 216, 0.8980392157);
+  }
+  .request #form #form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: -70px;
+  }
+  .request #form #form-fields #leave-req-text {
+    display: flex;
+    margin-left: -118px;
+  }
+  .request #form #form-fields #leave-req-text p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .request #form #form-fields #inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 45px 0 0 75px;
+  }
+  .request #form #form-fields #inputs input {
+    padding-bottom: 4px;
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 18px;
+    width: 525px;
+    height: 30px;
+  }
+  .request #form #form-fields #inputs input:focus {
+    color: #000000;
+    outline: none;
+  }
+  .request #form #form-fields #btn-req {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+    z-index: 1;
+  }
+  .request #form #form-fields #btn-req button {
+    background-color: #1d1d1d;
+    width: 550px;
+    height: 97px;
+    transition-property: all;
+    transition: all ease 0.6s;
+    border: none;
+  }
+  .request #form #form-fields #btn-req button p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    padding-left: 190px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .request #form #form-fields #btn-req button:hover {
+    background-color: #b9917f;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .request #form #form-fields #btn-req button:hover p {
+    color: #ffffff;
+  }
+  .request #form #h3-text-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -220px 0 0 -40px;
+    z-index: -2;
+  }
+  .request #form #h3-text-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    gap: 160px;
+    margin: 75px 0 45px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: fit-content;
+    padding-bottom: 0;
+    margin-left: 250px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+    transition-property: all;
+    transition: all ease 0.6s;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer #waiting-text #arr-up-link:hover {
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(-20%);
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 140px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 1400px) {
+  /* 1.1 */
+  .header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: fit-content;
+    margin-bottom: 100px;
+  }
+  .header #nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 230px;
+    z-index: 1;
+  }
+  .header #nav #telephone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family: Poppins;
+    gap: 15px;
+  }
+  .header #nav #nav-open {
+    width: 40px;
+    height: 16px;
+    align-self: center;
+  }
+  .header #nav #tel_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .header #services-title {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header #services-title #title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .header #services-title #title #ourserv-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .header #services-title #title #ourserv-text div #h2-1 {
+    margin-left: -50px;
+  }
+  .header #services-title #title #ourserv-text div #h2-2 {
+    margin-top: -30px;
+  }
+  .header #services-title #title #ourserv-text div h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: #000000;
+  }
+  .header #services-title #title #ourserv-text p {
+    display: flex;
+    margin-right: 17px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    width: 160px;
+    align-self: flex-end;
+  }
+  .header #services-title #title #girl-serv-main {
+    display: flex;
+    justify-content: center;
+  }
+  .header #services-title #title #girl-serv-main img {
+    width: 360px;
+    height: 430px;
+  }
+  .header #services-title #req-2-p {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-self: flex-end;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .header #services-title #req-2-p:hover {
+    cursor: pointer;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(30%);
+  }
+  .header #services-title #req-2-p a {
+    text-decoration: none;
+  }
+  .header #services-title #req-2-p a p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .header #services-title #req-2-p #req-2-arr-img {
+    width: 56px;
+    align-self: flex-end;
+    transition-property: all;
+    transition: all ease 0.8s;
+  }
+  .header #services-title #req-2-p #req-2-arr-img:hover {
+    cursor: pointer;
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(15%);
+  }
+  .header #services-title #req-2-button {
+    display: none;
+  }
+  /* 1.2 */
+  .fotosessia-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .fotosessia-serv #serv-1-title {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+    height: fit-content;
+  }
+  .fotosessia-serv #serv-1-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .fotosessia-serv #serv-1-inner {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    gap: 25px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto #hr-line-1 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    margin-top: 2px;
+    height: 187px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-1-foto img {
+    width: 360px;
+    height: 557px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title {
+    display: flex;
+    flex-direction: row;
+    gap: 115px;
+    margin-bottom: 20px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 35px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    gap: 5px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(50%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #serv-cont-title #arr-nav-1 #navarr-1 {
+    width: 40px;
+    align-self: flex-start;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count {
+    display: flex;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-bottom: 70px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #pay-count p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 32px;
+    font-weight: 300;
+    width: 360px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 253px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
+  .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
+    font-family: "Roboto";
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20.0117px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.95);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.5px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.3 */
+  .retush-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .retush-serv #serv-2-title {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .retush-serv #serv-2-descr {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+  .retush-serv #serv-2-descr #hr-line-2 {
+    margin-top: 2px;
+    margin-left: 160px;
+    border: 0.1px solid #e3c3b3;
+    height: 140px;
+    width: 1;
+    background-color: #e3c3b3;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 {
+    display: flex;
+    padding-left: 17px;
+    width: 320px;
+  }
+  .retush-serv #serv-2-descr #text-decr-serv-2 p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .retush-serv #serv-2-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-descr div h3 {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+    padding-bottom: 400px;
+    margin: -275px 0 0 170px;
+  }
+  .retush-serv #serv-2-inner {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-1 #girl-serv-img-2 {
+    width: 469px;
+    height: 545px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #serv-2-pay-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .retush-serv #serv-2-inner #serv-2-content-2 #girl-serv-img-3 {
+    width: 284px;
+    height: 250px;
+  }
+  .retush-serv #btn-leave-req-serv-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button {
+    width: 335px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 0.500294px solid #7C4D35;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .retush-serv #btn-leave-req-serv-2 button p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: #7C4D35;
+    text-align: center;
+    margin: 0;
+    text-align: center;
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover {
+    background-color: #7C4D35;
+    border: 0.5px solid #7C4D35;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(15%);
+  }
+  .retush-serv #btn-leave-req-serv-2 button:hover p {
+    color: #ffffff;
+  }
+  /* 1.4 */
+  .rentcloth-serv {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 100px;
+  }
+  .rentcloth-serv #serv-3-title {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-title h2 {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+  }
+  .rentcloth-serv #serv-3-descr {
+    display: flex;
+    padding: 0 230px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-descr-text p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+  }
+  .rentcloth-serv #serv-3-descr div {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .rentcloth-serv #serv-3-descr div #hr-line-3 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    transform: rotate(90deg);
+    width: 0px;
+    margin: -65px 0 0 80px;
+  }
+  .rentcloth-serv #serv-3-descr #serv-3-pay p {
+    margin: 0 0 0 100px;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    font-size: 24px;
+    color: #000000;
+  }
+  .rentcloth-serv #arr-next-1 {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+    margin-bottom: 20px;
+    transition-property: all;
+    transition: all ease 0.5s;
+  }
+  .rentcloth-serv #arr-next-1:hover {
+    transition-delay: 0s, 0.5s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateX(2%);
+  }
+  .rentcloth-serv #arr-next-1 p {
+    display: flex;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-style: italic;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #arr-next-1 #nextarr-1 {
+    width: 40px;
+    align-self: flex-end;
+  }
+  .rentcloth-serv #serv-3-inner {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses,
+  .rentcloth-serv #serv-3-inner #suits,
+  .rentcloth-serv #serv-3-inner #wedding {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #dress-foto,
+  .rentcloth-serv #serv-3-inner #suits #dress-foto,
+  .rentcloth-serv #serv-3-inner #wedding #dress-foto {
+    width: 347px;
+    height: 475px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #suits-foto,
+  .rentcloth-serv #serv-3-inner #suits #suits-foto,
+  .rentcloth-serv #serv-3-inner #wedding #suits-foto {
+    width: 347px;
+    height: 343px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses #wedding-foto,
+  .rentcloth-serv #serv-3-inner #suits #wedding-foto,
+  .rentcloth-serv #serv-3-inner #wedding #wedding-foto {
+    width: 347px;
+    height: 650px;
+  }
+  .rentcloth-serv #serv-3-inner #dresses p,
+  .rentcloth-serv #serv-3-inner #suits p,
+  .rentcloth-serv #serv-3-inner #wedding p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-weight: 300;
+    color: #000000;
+    line-height: 33px;
+  }
+  /* 1.5 */
+  .request {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #ffffff;
+    gap: 20px;
+    color: #000000;
+  }
+  .request #form {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    gap: 44px;
+    margin: 0;
+  }
+  .request #form #form-title {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .request #form #form-title #hr-line-8 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    display: flex;
+    height: 176px;
+  }
+  .request #form #form-title #title-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .request #form #form-title #title-form p {
+    margin: 0;
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: left;
+    margin-top: -5px;
+    width: fit-content;
+  }
+  .request #form #form-title #title-form #hr-block-3 {
+    margin: 0;
+    border: 0.1px solid rgba(255, 229, 216, 0.8980392157);
+    width: 181px;
+    height: 9px;
+    background-color: rgba(255, 229, 216, 0.8980392157);
+  }
+  .request #form #form-fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin-left: -70px;
+    z-index: 1;
+  }
+  .request #form #form-fields #leave-req-text {
+    display: flex;
+    margin-left: -118px;
+  }
+  .request #form #form-fields #leave-req-text p {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    color: #000000;
+    font-weight: 300;
+  }
+  .request #form #form-fields #inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 45px 0 0 75px;
+  }
+  .request #form #form-fields #inputs input {
+    padding-bottom: 4px;
+    border: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 18px;
+    width: 525px;
+    height: 30px;
+  }
+  .request #form #form-fields #inputs input:focus {
+    color: #000000;
+    outline: none;
+  }
+  .request #form #form-fields #btn-req {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 80px;
+  }
+  .request #form #form-fields #btn-req button {
+    background-color: #1d1d1d;
+    width: 550px;
+    height: 97px;
+    transition-property: all;
+    transition: all ease 0.6s;
+    border: none;
+  }
+  .request #form #form-fields #btn-req button p {
+    margin: 0;
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+    padding-left: 190px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .request #form #form-fields #btn-req button:hover {
+    background-color: #b9917f;
+    transition-duration: 0.5s;
+    transition-delay: 0s, 0.1s;
+    transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
+    transform: translateY(10%);
+  }
+  .request #form #form-fields #btn-req button:hover p {
+    color: #ffffff;
+  }
+  .request #form #h3-text-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: -220px 0 0 -40px;
+  }
+  .request #form #h3-text-side h3 {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(0, 0, 0, 0.055);
+    transform: rotate(90deg);
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    background-color: #1d1d1d;
+    color: #ffffff;
+  }
+  .footer #waiting-text {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    justify-content: center;
+    height: fit-content;
+    gap: 160px;
+    margin: 75px 0 45px 0;
+  }
+  .footer #waiting-text #text {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: "Perpetua Titling MT";
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+    color: rgba(255, 255, 255, 0.35);
+    line-height: 55px;
+    font-size: 60px;
+    transform: rotate(0deg);
+    width: fit-content;
+    padding-bottom: 0;
+    margin-left: 251px;
+  }
+  .footer #waiting-text #arr-up-link {
+    display: flex;
+  }
+  .footer #waiting-text #arr-up-link #arr-up {
+    display: flex;
+    align-self: center;
+    height: min-content;
+    width: 50px;
+    transform: rotate(-90deg);
+    margin-right: 20px;
+  }
+  .footer div #hr-line-9 {
+    border: 0.1px solid #e3c3b3;
+    height: 130px;
+    width: 1;
+    background-color: #e3c3b3;
+    height: 0;
+    opacity: 0.5;
+    width: auto;
+  }
+  .footer #social-icons {
+    display: flex;
+    padding: 0 230px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap: 20px;
+    margin: 35px 0 60px 0;
+    opacity: 0.35;
+  }
+  .footer #social-icons a #vk {
+    width: 40px;
+    height: 28px;
+  }
+  .footer #social-icons a img {
+    width: 30px;
+    height: 30px;
+  }
+}
