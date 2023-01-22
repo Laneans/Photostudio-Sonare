@@ -1,0 +1,121 @@
+//mixins
+///---------------------------------------609-993---------------------------------------------------------//
+///ALIGNS
+@mixin align58flex {
+    display: flex;
+    padding: 0 58px;
+}
+
+///---------------------------------------993-1200--------------------------------------------------------//
+///ALIGNS
+@mixin align115flex {
+    display: flex;
+    padding: 0 115px;
+}
+
+//----------------------------------------1200-1400--------------------------------------------------------//
+//FONTS
+@mixin font-20h4 {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 20px;
+    color: $mainFONTColor_light;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+}
+
+@mixin font-30h4 {
+    padding-right: 20px;
+    width: fit-content;
+    height: max-content;
+    font-size: 30px;
+    color: $mainFONTColor_light;
+    font-family: "Roboto";
+    font-weight: 200;
+    font-style: normal;
+    line-height: 23px;
+}
+
+@mixin font-70h3-side {
+    margin: 0;
+    width: 445px;
+    transform: rotate(-90deg);
+    padding-bottom: 305px;
+    align-self: flex-end;
+    font-family: 'Perpetua Titling MT';
+    font-weight: 300;
+    font-size: 71px;
+    line-height: 86px;
+    color: rgba(0, 0, 0, 0.055);
+}
+
+@mixin font-56h2 {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 58px;
+}
+
+@mixin font-60h2 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 57px;
+    color: $mainFONTColor_dark;
+}
+
+@mixin font-100titlepages {
+    display: flex;
+    width: 438px;
+    height: 117px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 84px;
+    color: $mainFONTColor_dark;
+}
+
+@mixin font-innerBTN {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    color: $mainBTNinnerFONTColor;
+}
+
+
+//ELEMENTS
+@mixin hr-line {
+    border: 0.1px solid $mainHRColor;
+    height: 130px;
+    width: 1;
+    background-color: $mainHRColor;
+}
+
+@mixin hr-block {
+    border: 0.1px solid #FFE5D8;
+    width: 128px;
+    height: 9px;
+    background-color: #FFE5D8;
+}
+
+
+//ALIGNS
+@mixin align140flex {
+    display: flex;
+    padding: 0 140px;
+}
+
+///----------------------------------------1400+--------------------------------------------------------//
+//ALIGNS
+@mixin align230flex {
+    display: flex;
+    padding: 0 230px;
+}
