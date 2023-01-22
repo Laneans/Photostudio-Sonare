@@ -1,0 +1,59 @@
+@media (min-width: 609px) {
+  body {
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+  }
+  body #download {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 10.6rem;
+    margin-top: 10.6rem;
+    margin-bottom: 10.6rem;
+  }
+  body #download:before, body #download:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(0 0 0.7555555556rem rgba(255, 255, 255, 0.75));
+  }
+  body #download:before {
+    width: 100%;
+    padding-bottom: 100%;
+    box-shadow: inset 0 0 0 1.7rem #ffffff;
+    animation-name: pulsA;
+  }
+  body #download:after {
+    width: calc(100% - 1.7rem*2);
+    padding-bottom: calc(100% - 1.7rem*2);
+    box-shadow: 0 0 0 0 #ffffff;
+    animation-name: pulsB;
+  }
+  @keyframes pulsA {
+    0% {
+      box-shadow: inset 0 0 0 1.7rem #ffffff;
+      opacity: 1;
+    }
+    50%, 100% {
+      box-shadow: inset 0 0 0 0 #ffffff;
+      opacity: 0;
+    }
+  }
+  @keyframes pulsB {
+    0%, 50% {
+      box-shadow: 0 0 0 0 #ffffff;
+      opacity: 0;
+    }
+    100% {
+      box-shadow: 0 0 0 1.7rem #ffffff;
+      opacity: 1;
+    }
+  }
+}
