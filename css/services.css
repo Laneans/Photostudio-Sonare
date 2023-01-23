@@ -1722,7 +1722,7 @@ body {
     transition-delay: 0s, 0.1s;
     border: none;
     transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
-    transform: translateY(35%);
+    transform: translateY(10%);
   }
   .request #form #form-fields #btn-req button:hover p {
     color: #ffffff;
@@ -2297,7 +2297,7 @@ body {
     transition-duration: 0.5s;
     transition-delay: 0s, 0.1s;
     transition-timing-function: ease-out(0.1, 0.8, 0.5, 2), linear;
-    transform: translateY(35%);
+    transform: translateY(10%);
   }
   .retush-serv #btn-leave-req-serv-2 button:hover p {
     color: #ffffff;
