@@ -881,7 +881,7 @@ body {
   }
   .contacts-info #conts-info {
     display: flex;
-    padding: 0 210px;
+    padding: 0 170px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
