@@ -1,7 +1,7 @@
 window.onload = (function () {
     //ЗАГРУЗКА СТРАНИЦЫ О НАС
     var $body = $("body");
-    linkLocation2 = "..//html/main.html";
+    linkLocation2 = "html/main.html";
     setTimeout(function () {
         $body.fadeIn(2000, "linear");
         $body.fadeIn(2000, redirectPage2);
