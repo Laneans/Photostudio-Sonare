@@ -4,7 +4,7 @@ window.onload = (function () {
     var $exit = $("#exit");
     $exit.on('click', function () {
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "..//html/menu.html";
+        linkLocation = "..//html/main.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
@@ -16,7 +16,7 @@ window.onload = (function () {
         switch ($(this).attr("id")) {
             case "about":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "..//html/menu.html";
+                linkLocation = "..//html/main.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
