@@ -4,7 +4,7 @@ window.onload = (function () {
     var $exit = $("#exit");
     $exit.on('click', function () {
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "html/menu.html";
+        linkLocation = "..//html/menu.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
@@ -16,7 +16,7 @@ window.onload = (function () {
         switch ($(this).attr("id")) {
             case "about":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/menu.html";
+                linkLocation = "..//html/menu.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
@@ -24,7 +24,7 @@ window.onload = (function () {
                 break;
             case "services":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/services.html";
+                linkLocation = "..//html/services.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
@@ -32,7 +32,7 @@ window.onload = (function () {
                 break;
             case "halls":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/halls.html";
+                linkLocation = "..//html/halls.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
@@ -40,7 +40,7 @@ window.onload = (function () {
                 break;
             case "team":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/team.html";
+                linkLocation = "..//html/team.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
@@ -48,7 +48,7 @@ window.onload = (function () {
                 break;
             case "portfolio":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/portfolio.html";
+                linkLocation = "..//html/portfolio.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
@@ -56,7 +56,7 @@ window.onload = (function () {
                 break;
             case "contacts":
                 $("body").fadeIn(470, "ease-in-out");
-                linkLocation = "html/contacts.html";
+                linkLocation = "..//html/contacts.html";
                 $("body").fadeOut(470, redirectPage);
                 function redirectPage() {
                     window.location = linkLocation;
