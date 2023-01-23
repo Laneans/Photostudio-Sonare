@@ -14,7 +14,7 @@ window.onload = (function () {
     $menu.on('click', function () {
         //переход    
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "html/menu.html";
+        linkLocation = "..//html/menu.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
@@ -25,7 +25,7 @@ window.onload = (function () {
     var $to_portfl = $('#btn-goto-porfl');
     $to_portfl.on('click', function () {
         $("body").fadeIn(470, "ease-in-out");
-        linkLocation = "html/portfolio.html";
+        linkLocation = "..//html/portfolio.html";
         $("body").fadeOut(470, redirectPage);
         function redirectPage() {
             window.location = linkLocation;
