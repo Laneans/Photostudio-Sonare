@@ -1,3 +1,11 @@
+@font-face {font-family: "Perpetua Titling MT Std"; src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot"); 
+  src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.svg#Perpetua Titling MT Std") format("svg");
+}
+
 body {
   display: none;
   margin: 0;
@@ -33,7 +41,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -63,7 +71,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -102,7 +110,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -181,7 +189,7 @@ body {
   }
   .descr-hall-1 #descr-hall-title h2 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 57px;
@@ -206,7 +214,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -288,7 +296,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -311,7 +319,7 @@ body {
   }
   .descr-hall-2 #hall-numbers div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -356,7 +364,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -382,7 +390,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -419,7 +427,7 @@ body {
   }
   .table-book #dates-tablet div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 25px;
@@ -451,7 +459,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -480,7 +488,7 @@ body {
     background: rgba(217, 217, 217, 0.5607843137);
   }
   .table-book #table-tablet #inner-table-zone #is-busy p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -530,7 +538,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -575,7 +583,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -639,7 +647,7 @@ body {
     transition: all ease 0.5s;
   }
   .table-book #enroll div button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -684,7 +692,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -767,7 +775,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -797,7 +805,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -834,7 +842,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -912,7 +920,7 @@ body {
   }
   .descr-hall-1 #descr-hall-title h2 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 57px;
@@ -935,7 +943,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1015,7 +1023,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1039,7 +1047,7 @@ body {
   }
   .descr-hall-2 #hall-numbers div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -1083,7 +1091,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1109,7 +1117,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1144,7 +1152,7 @@ body {
   }
   .table-book #dates div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 25px;
@@ -1173,7 +1181,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1202,7 +1210,7 @@ body {
     background: rgba(217, 217, 217, 0.5607843137);
   }
   .table-book #table #inner-table-zone #is-busy p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -1252,7 +1260,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1296,7 +1304,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1349,7 +1357,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1368,7 +1376,7 @@ body {
     transition: all ease 0.5s;
   }
   .table-book #enroll div button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -1411,7 +1419,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1493,7 +1501,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -1523,7 +1531,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -1560,7 +1568,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1638,7 +1646,7 @@ body {
   }
   .descr-hall-1 #descr-hall-title h2 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 57px;
@@ -1661,7 +1669,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1741,7 +1749,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1765,7 +1773,7 @@ body {
   }
   .descr-hall-2 #hall-numbers div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -1809,7 +1817,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1835,7 +1843,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1869,7 +1877,7 @@ body {
   }
   .table-book #dates div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 25px;
@@ -1898,7 +1906,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1931,7 +1939,7 @@ body {
     background: rgba(217, 217, 217, 0.5607843137);
   }
   .table-book #table #inner-table-zone #is-busy p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -1981,7 +1989,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2025,7 +2033,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2078,7 +2086,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2097,7 +2105,7 @@ body {
     transition: all ease 0.5s;
   }
   .table-book #enroll div button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -2140,7 +2148,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -2222,7 +2230,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -2252,7 +2260,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -2289,7 +2297,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2367,7 +2375,7 @@ body {
   }
   .descr-hall-1 #descr-hall-title h2 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 60px;
     line-height: 57px;
@@ -2390,7 +2398,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2470,7 +2478,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2494,7 +2502,7 @@ body {
   }
   .descr-hall-2 #hall-numbers div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -2538,7 +2546,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -2564,7 +2572,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2598,7 +2606,7 @@ body {
   }
   .table-book #dates div p {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 17px;
     line-height: 25px;
@@ -2627,7 +2635,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2656,7 +2664,7 @@ body {
     background: rgba(217, 217, 217, 0.5607843137);
   }
   .table-book #table #inner-table-zone #is-busy p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
@@ -2706,7 +2714,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2750,7 +2758,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2803,7 +2811,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2822,7 +2830,7 @@ body {
     transition: all ease 0.5s;
   }
   .table-book #enroll div button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -2865,7 +2873,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
