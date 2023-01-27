@@ -1,3 +1,11 @@
+@font-face {font-family: "Perpetua Titling MT Std"; src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot"); 
+  src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.svg#Perpetua Titling MT Std") format("svg"); 
+}
+
 body {
   display: none;
   margin: 0;
@@ -62,7 +70,6 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
-    width: 438px;
     height: 117px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -71,7 +78,6 @@ body {
     color: #000000;
     font-size: 75px;
     line-height: 82px;
-    width: 650px;
     height: fit-content;
   }
   /* 1.2 */
@@ -161,7 +167,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: 'Perpetua Titling MT', serif;
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -367,7 +373,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: 'Perpetua Titling MT', serif;
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -572,7 +578,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: 'Perpetua Titling MT', serif;
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -683,7 +689,6 @@ body {
     justify-content: center;
     text-align: center;
     display: flex;
-    width: 438px;
     height: 117px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -691,7 +696,6 @@ body {
     line-height: 84px;
     color: #000000;
     line-height: 104px;
-    width: 650px;
     height: fit-content;
   }
   /* 1.2 */
@@ -777,7 +781,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: 'Perpetua Titling MT', serif;
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
