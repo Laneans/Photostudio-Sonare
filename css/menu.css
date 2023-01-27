@@ -1,3 +1,11 @@
+@font-face {font-family: "Perpetua Titling MT Std"; src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot");
+  src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.svg#Perpetua Titling MT Std") format("svg"); 
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -23,7 +31,7 @@ body {
   .menu #nav-menu p {
     margin: 0;
     width: 80px;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 20px;
     line-height: 28px;
@@ -49,7 +57,7 @@ body {
   }
   .menu #menu-content h1 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
@@ -95,7 +103,7 @@ body {
   .menu #nav-menu p {
     margin: 0;
     width: 80px;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 20px;
     line-height: 28px;
@@ -121,7 +129,7 @@ body {
   }
   .menu #menu-content h1 {
     margin: 0;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 79.6062px;
