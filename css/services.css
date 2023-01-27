@@ -1,3 +1,11 @@
+@font-face {font-family: "Perpetua Titling MT Std"; src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot"); 
+  src: url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/451cf13b1ca20d9e4ae5e0d7cb8b9f76.svg#Perpetua Titling MT Std") format("svg"); 
+}
+
 body {
   display: none;
   overflow-x: hidden;
@@ -32,7 +40,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -72,7 +80,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -90,7 +98,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -144,7 +152,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -171,7 +179,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -222,7 +230,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -253,7 +261,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -280,7 +288,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -304,7 +312,7 @@ body {
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 200;
     font-size: 15px;
@@ -326,7 +334,7 @@ body {
     transition: all ease 0.5s;
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -366,7 +374,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -402,7 +410,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -425,7 +433,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -465,7 +473,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -492,7 +500,7 @@ body {
     transition: all ease 0.5s;
   }
   .retush-serv #btn-leave-req-serv-2 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -530,7 +538,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -553,7 +561,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -583,7 +591,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -606,7 +614,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -661,7 +669,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -718,7 +726,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -753,7 +761,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -779,7 +787,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -812,7 +820,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -844,7 +852,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -883,7 +891,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -958,7 +966,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -998,7 +1006,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -1016,7 +1024,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1056,7 +1064,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1088,7 +1096,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -1137,7 +1145,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1168,7 +1176,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1195,7 +1203,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1279,7 +1287,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -1310,7 +1318,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1330,7 +1338,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1368,7 +1376,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1395,7 +1403,7 @@ body {
     transition: all ease 0.5s;
   }
   .retush-serv #btn-leave-req-serv-2 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -1433,7 +1441,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -1452,7 +1460,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1478,7 +1486,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1508,7 +1516,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1563,7 +1571,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1618,7 +1626,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -1652,7 +1660,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1675,7 +1683,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1707,7 +1715,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1739,7 +1747,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1771,7 +1779,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -1845,7 +1853,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -1891,7 +1899,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -1905,7 +1913,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1944,7 +1952,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -1976,7 +1984,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -2024,7 +2032,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2055,7 +2063,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2082,7 +2090,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2106,7 +2114,7 @@ body {
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 200;
     font-size: 20.0117px;
@@ -2127,7 +2135,7 @@ body {
     transition: all ease 0.5s;
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -2165,7 +2173,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -2196,7 +2204,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2216,7 +2224,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -2254,7 +2262,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2281,7 +2289,7 @@ body {
     transition: all ease 0.5s;
   }
   .retush-serv #btn-leave-req-serv-2 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -2319,7 +2327,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -2338,7 +2346,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2364,7 +2372,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2394,7 +2402,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2449,7 +2457,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2504,7 +2512,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -2537,7 +2545,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2560,7 +2568,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2593,7 +2601,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2624,7 +2632,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -2655,7 +2663,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -2737,7 +2745,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -2775,7 +2783,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
@@ -2789,7 +2797,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2829,7 +2837,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2869,7 +2877,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -2917,7 +2925,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2948,7 +2956,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2975,7 +2983,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -2999,7 +3007,7 @@ body {
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-1 span,
   .fotosessia-serv #serv-1-inner #serv-self-content #desript-serv #desr-2 span {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-weight: 200;
     font-size: 20.0117px;
@@ -3020,7 +3028,7 @@ body {
     transition: all ease 0.5s;
   }
   .fotosessia-serv #serv-1-inner #serv-self-content #btn-leave-req-serv-1 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -3058,7 +3066,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -3089,7 +3097,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3109,7 +3117,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -3147,7 +3155,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3174,7 +3182,7 @@ body {
     transition: all ease 0.5s;
   }
   .retush-serv #btn-leave-req-serv-2 button p {
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 200;
     font-size: 20px;
@@ -3212,7 +3220,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -3231,7 +3239,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3257,7 +3265,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3287,7 +3295,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3342,7 +3350,7 @@ body {
     height: max-content;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3397,7 +3405,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 56px;
     line-height: 58px;
@@ -3431,7 +3439,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3454,7 +3462,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3486,7 +3494,7 @@ body {
     height: max-content;
     font-size: 20px;
     color: #ffffff;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-style: normal;
     line-height: 23px;
@@ -3516,7 +3524,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
@@ -3547,7 +3555,7 @@ body {
     transform: rotate(-90deg);
     padding-bottom: 305px;
     align-self: flex-end;
-    font-family: "Perpetua Titling MT";
+    font-family: 'Perpetua Titling MT Std', serif;
     font-weight: 300;
     font-size: 71px;
     line-height: 86px;
