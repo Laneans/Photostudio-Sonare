@@ -1,3 +1,9 @@
+/* @font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+       url("/fonts/roboto.woff2") format("woff2")
+} */
+
 body {
   display: none;
   margin: 0;
@@ -33,7 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #000000;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     gap: 15px;
   }
   .header #nav #nav-open {
@@ -64,7 +70,7 @@ body {
     display: flex;
     width: 438px;
     height: 117px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 100px;
     line-height: 84px;
